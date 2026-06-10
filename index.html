@@ -2,21 +2,18 @@
 
 <html lang="pt-br">
 
-
-  <head>
+    <head>
     <title>AEP MapaApredizagem</title>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styile.css">
   </head>
-        
-        <header> <!--Cabesario vai logo o que quiser em sima-->
-
-        </header>
 
   <body>
 
+
     <main>
         <section class="Base" id = "TelaInicial"><!--grupo da telea inicial--> 
-            <samp calss = "TagBase">logo</samp>
             <h1>Seu mapa para Ensino Basico</h1>
             <p>digite o que deseje aprender e um mapa sera criado</p>
 
@@ -32,7 +29,7 @@
                 <button class="PesquisaBTN" id="GeradorBTN" onclick="GeradorMapa()">Gerar Mapa</button>
               </div>
               
-              <div calss="exemplos"> <!-- EXEMPLOS DE ESPLORAÇÕA-->
+              <div class="exemplos"> <!-- EXEMPLOS DE ESPLORAÇÕA-->
                 <button class="axemploPesquisa" onclick="Exemplo(this)">matematica basica</button>
                 <button class="axemploPesquisa" onclick="Exemplo(this)">portugues basica</button>
                 <button class="axemploPesquisa" onclick="Exemplo(this)">desenho</button>
@@ -48,10 +45,9 @@
           <p class = "loading-Passos" id="loadingPassos">pesquisando</p>
        </div>
 
+        <section id="result"></section>
+        
     </main>
     <script src = "scrypt.js"></script>
-
-<section id="result"></section>
-
   </body>
 </html>
