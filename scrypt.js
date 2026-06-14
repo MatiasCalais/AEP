@@ -1,5 +1,5 @@
 //costantes DA IA GROQ-------------------------------------------------------------
-const GroqAPIkey = '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';
+const GroqAPIkey = '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';
 const GroqURL = 'https://api.groq.com/openai/v1/chat/completions';
 const ModeloGroq = 'llama-3.3-70b-versatile'
 
